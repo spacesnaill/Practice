@@ -12,11 +12,11 @@ body {
   font-size: 26px;
 }
 
-ol li {
+/*ol li {
   background-color: tomato;
   color: white;
   margin-bottom: 5px;
-}
+}*/
 
 h1 {
   font-size: 90px;
@@ -47,4 +47,33 @@ h3 {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+.grow {
+  transition: all 0.5s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+a:active {
+  color: lightcoral;
+}
+
+:focus {
+  color: white;
+  background-color: orange;
 }
