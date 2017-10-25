@@ -4,6 +4,7 @@
 body {
   color: #878787;
   margin: 0;
+  font-size: 150%;
 }
 
 h1 {
@@ -24,12 +25,16 @@ h3 {
 */
 .main-header {
   background-color: orange;
-  width: 960px;
 }
 
 .title {
   color: white;
   font-size: 26px;
+}
+
+.primary-content,
+.secondary-content {
+  width: 60%;
 }
 
 .primary-content {
