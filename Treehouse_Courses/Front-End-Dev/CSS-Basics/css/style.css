@@ -19,7 +19,6 @@ h1 {
 
 h2 {
   font-size: 53px;
-  text-decoration: underline;
   font-weight: normal;
 }
 
@@ -40,11 +39,6 @@ p {
 .title {
   color: white;
   font-size: 1.625em; /* 26px/16px */
-}
-
-.primary-content,
-.secondary-content {
-  width: 60%;
 }
 
 .primary-content,
@@ -81,6 +75,24 @@ a:visited {
 
 a:hover {
   color: rgba(255, 169, 73, 0.4);
+}
+
+/*
+Layout Styles
+*/
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
+
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  /*padding-top: 100px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+  padding-left: 120px;*/
+  padding: 18% 24%;
 }
 
 /*
