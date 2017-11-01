@@ -18,13 +18,16 @@ h1 {
 }
 
 h2 {
-  font-size: 53px;
+  font-size: 3.3125em; /* 53px / 16px */
   font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: 0.5em; /*26px*/
 }
 
 h3 {
   font-size: 20px;
   color: #48525c;
+  margin-bottom: 1.7em; /* 34px */
 }
 
 p {
@@ -83,6 +86,7 @@ Layout Styles
 .primary-content,
 .secondary-content {
   width: 60%;
+  margin: auto;
 }
 
 .wildlife {
@@ -93,6 +97,12 @@ Layout Styles
   padding-bottom: 100px;
   padding-left: 120px;*/
   padding: 18% 24%;
+
+  border-top-width: 10px;
+  border-top-style: solid;
+  border-top-color: #ffa949;
+
+  margin: 105px 0 60px;
 }
 
 /*
