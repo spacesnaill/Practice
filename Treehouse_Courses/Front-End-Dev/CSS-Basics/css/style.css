@@ -6,11 +6,13 @@ body {
   margin: 0;
   font-size: 1em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5; /*Best to use unitless values as it scales with the font size */
+  line-height: 1.5;
+  /*Best to use unitless values as it scales with the font size */
 }
 
 h1 {
-  font-size: 5.625em; /* 90px / 16px */
+  font-size: 5.625em;
+  /* 90px / 16px */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   font-weight: normal;
@@ -18,16 +20,25 @@ h1 {
 }
 
 h2 {
-  font-size: 3.3125em; /* 53px / 16px */
+  font-size: 3.3125em;
+  /* 53px / 16px */
   font-weight: normal;
   line-height: 1.1;
-  margin-bottom: 0.5em; /*26px*/
+  margin-bottom: 0.5em;
+  /*26px*/
 }
 
 h3 {
   font-size: 20px;
   color: #48525c;
-  margin-bottom: 1.7em; /* 34px */
+  margin-bottom: 1.7em;
+  /* 34px */
+}
+
+li {
+  display: inline;
+  padding: 0 12px;
+  border-right: solid 1px;
 }
 
 p {
@@ -41,11 +52,12 @@ p {
 
 .title {
   color: white;
-  font-size: 1.625em; /* 26px/16px */
+  font-size: 1.625em;
+  /* 26px/16px */
 }
 
-.primary-content,
-.main-header {
+.main-header,
+.primary-content {
   text-align: center;
 }
 
@@ -56,6 +68,13 @@ p {
   border-top: 2px solid lightgrey;
 }
 
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
 /*
   ID Selector
 */
@@ -79,7 +98,6 @@ a:visited {
 a:hover {
   color: rgba(255, 169, 73, 0.4);
 }
-
 /*
 Layout Styles
 */
@@ -97,14 +115,11 @@ Layout Styles
   padding-bottom: 100px;
   padding-left: 120px;*/
   padding: 18% 24%;
-
   border-top-width: 10px;
   border-top-style: solid;
   border-top-color: #ffa949;
-
   margin: 105px 0 60px;
 }
-
 /*
   Grow on hover animation
 */
